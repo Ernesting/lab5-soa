@@ -27,6 +27,7 @@ const val COUNT_ROUTE = "direct:extractor"
 const val LOG_ROUTE = "direct:log"
 const val INDEX_VIEW = "index"
 const val MAX_DEFAULT = 7
+
 @Controller
 class SearchController(private val producerTemplate: ProducerTemplate) {
     @RequestMapping("/")
